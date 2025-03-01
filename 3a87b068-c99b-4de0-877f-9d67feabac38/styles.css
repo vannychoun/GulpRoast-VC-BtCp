@@ -1,0 +1,246 @@
+/* Global Styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-image: url("https://static.bc-edx.com/uxui/uxui-v3/m9/coffee-brand-assets/gulp-logo-dark.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+}
+
+.nav {
+  padding: 20px;
+  text-align: center;
+  height: 20px;
+  color: #131d26;
+  background-color: #f2f2f2;
+  width: auto;
+  font-weight: bold;
+  border-top: 10px solid #59331d;
+  border-bottom: 10px solid #59331d;
+}
+
+.inline-block {
+  margin-inline: 60px;
+  display: inline-flex;
+  text-align: right;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 2; /* Bold */
+  font-size: 2px;
+  color: #131d26;
+  text-align: center;
+}
+
+/* Main Content */
+.mains {
+  background-image: url("https://static.bc-edx.com/uxui/uxui-v3/m9/coffee-brand-assets/gulp-coffee-closeup.jpg");
+  background-repeat: no-repeat;
+  background-size: 1423px 100%;
+  background-position: center;
+  height: 1500px;
+  width: auto;
+  display: grid;
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.title1 {
+  font-size: 40px;
+}
+
+.box1 {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 40px;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.b1logo {
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.enjoy {
+  font-size: large;
+}
+
+.explore {
+  text-align: center;
+  padding: 40px;
+}
+.btn {
+  background: rgba(8, 43, 89);
+  color: #f2f2f2;
+  font-size: large;
+  position: sticky;
+  padding: 15px;
+  border-radius: 3px;
+  border-color: #59331d;
+  border-bottom: 10px;
+}
+
+.testimonials {
+  display: inline-flex;
+  padding-top: 30px;
+}
+
+.main2 {
+  padding: 30px;
+  border: #59331d;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 40px;
+  margin-top: 100px;
+  border-color: #59331d;
+  border-top: 10px;
+  border-bottom: 30px;
+  height: 250px;
+}
+
+.mid {
+  border-color: #59331d;
+  border-top: 10px;
+  border-bottom: 30px;
+}
+
+.p1 {
+  flex-shrink: 3;
+  padding-right: 40px;
+  font-style: italic;
+}
+
+.p2 {
+  flex-shrink: 3;
+  padding-left: 40px;
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: #131d26;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4b382a;
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  border-top: 10px solid #59331d;
+  background-color: #f2f2f2;
+  color: #131d26;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Border Styling */
+.brand-guide {
+  border: 2px solid #6f4e37;
+  padding: 15px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  .nav {
+    padding: 0px;
+    display: grid;
+    height: 60px;
+    color: #131d26;
+    background-color: #f2f2f2;
+    width: auto;
+    font-weight: bold;
+    border-top: 10px solid #59331d;
+    border-bottom: 10px solid #59331d;
+  }
+
+  .title1 {
+    font-size: 30px;
+  }
+
+  .b1logo {
+    width: 280px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .enjoy {
+    font-size: medium;
+  }
+  
+  .explore {
+    font-size: medium;
+    text-align: center;
+    padding: 40px;
+  }
+  
+
+  .testimonials {
+    display: grid;
+    padding-top: 20px;
+  }
+
+  .p1 {
+    flex-shrink: 3;
+    display: grid;
+    padding-left: 20px;
+    font-style: italic;
+  }
+  
+  .p2 {
+    flex-shrink: 3;
+    display: grid;
+    padding-right: 60px;
+    font-style: italic;
+  }
+
+  .mains {
+    background-image: url("https://static.bc-edx.com/uxui/uxui-v3/m9/coffee-brand-assets/gulp-coffee-closeup.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px 100%;
+    background-position: center;
+    height: 1500px;
+    width: auto;
+    display: grid;
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .main2 {
+    padding: 30px;
+    border: #59331d;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 40px;
+    margin-top: 60pxpx;
+    border-color: #59331d;
+    border-top: 10px;
+    border-bottom: 30px;
+    height: 380px;
+  }
+}
